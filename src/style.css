@@ -1,0 +1,24 @@
+:root {
+  --color-accent: #d4461f;
+  --color-accent-soft: #fbe9e3;
+  --color-bg: #f5f4f1;
+  --color-surface: #ffffff;
+  --color-text: #1a1a1a;
+  --color-muted: #6b6b6b;
+  --color-border: #e7e5e0;
+  --color-star: #f2a516;
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --font-main: 'Inter', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
